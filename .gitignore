@@ -1,0 +1,7 @@
+   node_modules/
+   package-lock.json   # optional, usually keep if sharing lockfile
+   allure-results/
+   allure-report/
+   *.log
+   .vscode/
+   .env
