@@ -11,7 +11,7 @@ exports.config = {
     // Specify Test Files
     // ==================
     specs: [
-        './features/**/*.feature'
+        './test/features/**/*.feature'
     ],
     exclude: [],
 
