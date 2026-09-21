@@ -43,7 +43,7 @@ exports.config = {
     framework: 'cucumber',
     cucumberOpts: {
         require: [
-            './step-definitions/**/*.js'
+            './test/step-definitions/**/*.js'
         ],
         backtrace: false,
         requireModule: [],
