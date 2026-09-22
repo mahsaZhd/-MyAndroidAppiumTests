@@ -12,6 +12,9 @@ Given('the user is on the library page', async () => {
 });
 
 When('the user taps the Profile button', async () => {
+        // Debug: Print the page source to the terminal
+    const xml = await browser.getPageSource();
+    console.log(xml)
     await bottomNav.tapProfileButton();
 });
 
