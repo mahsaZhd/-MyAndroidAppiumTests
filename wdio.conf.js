@@ -25,6 +25,7 @@ exports.config = {
         'appium:deviceName': 'Android Emulator',
         'appium:app': path.resolve('./apps/notavaa-rc-direct-2.0.4-rc.1+1.apk'),
         'appium:autoGrantPermissions': true,
+        'appium:noReset': true, // <--- this line: Don’t wipe the app’s data; keep the logged-in session and settings.
         'appium:newCommandTimeout': 240
     }],
 
